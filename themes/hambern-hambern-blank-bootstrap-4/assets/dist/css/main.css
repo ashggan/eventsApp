@@ -1,0 +1,527 @@
+body {
+  overflow-x: hidden;
+  background-color: #111;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-inverse {
+  background-color: transparent;
+  padding-top: 40px;
+}
+
+.pull-xs-left {
+  margin-left: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #111;
+}
+
+.navbar-brand > img {
+  display: block;
+  width: 150px;
+}
+
+.navbar-brand > img::after {
+  content: "";
+  width: 15px;
+  height: 100%;
+  background-color: #277e87;
+}
+
+#banner {
+  background-color: #0a937e;
+  background-image: url("http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -47px;
+}
+
+#banner .layer1 {
+  width: 100%;
+  height: 100%;
+  transition: all 0.45s;
+}
+
+#banner .layer1:hover {
+  background: linear-gradient(rgba(37, 107, 169, 0.802), rgba(37, 107, 169, 0.802));
+}
+
+#slider {
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+}
+
+@-webkit-keyframes move_wave {
+  0% {
+    -webkit-transform: translateX(0) translateZ(0) scaleY(1);
+            transform: translateX(0) translateZ(0) scaleY(1);
+  }
+
+  50% {
+    -webkit-transform: translateX(-25%) translateZ(0) scaleY(0.55);
+            transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+
+  100% {
+    -webkit-transform: translateX(-50%) translateZ(0) scaleY(1);
+            transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
+@keyframes move_wave {
+  0% {
+    -webkit-transform: translateX(0) translateZ(0) scaleY(1);
+            transform: translateX(0) translateZ(0) scaleY(1);
+  }
+
+  50% {
+    -webkit-transform: translateX(-25%) translateZ(0) scaleY(0.55);
+            transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+
+  100% {
+    -webkit-transform: translateX(-50%) translateZ(0) scaleY(1);
+            transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
+#slider .waveWrapper {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+#slider .waveWrapperInner {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  bottom: -1px;
+  background-repeat: no-repeat;
+}
+
+#slider .bgTop {
+  z-index: 15;
+  opacity: 0.5;
+}
+
+#slider .bgMiddle {
+  z-index: 10;
+  opacity: 0.75;
+}
+
+#slider .bgBottom {
+  z-index: 5;
+}
+
+#slider .wave {
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+
+#slider .waveTop {
+  background-size: 50% 100px;
+}
+
+#slider .waveAnimation .waveTop {
+  animation: move-wave 3s;
+  -webkit-animation: move-wave 3s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#slider .waveMiddle {
+  background-size: 50% 120px;
+}
+
+#slider .waveAnimation .waveMiddle {
+  -webkit-animation: move_wave 10s linear infinite;
+          animation: move_wave 10s linear infinite;
+}
+
+#slider .waveBottom {
+  background-size: 50% 100px;
+}
+
+#slider .waveAnimation .waveBottom {
+  -webkit-animation: move_wave 15s linear infinite;
+          animation: move_wave 15s linear infinite;
+}
+
+#search {
+  width: 100%;
+  height: 100vh;
+  background-color: #1993a0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search .search-box {
+  width: 70%;
+  height: 250px;
+  background: #05c6af;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  outline: #686868;
+}
+
+#howtowork {
+  height: 100vh;
+  margin-top: -50px;
+  width: 100%;
+  background-color: #1a6a8c;
+}
+
+#howtowork .cont {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left bottom, #F2E3C6 0%, #A7A1A5 100%);
+  overflow: hidden;
+}
+
+#howtowork .app {
+  position: relative;
+  min-width: 100%;
+  height: 100%;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+#howtowork .app__bgimg {
+  position: absolute;
+  top: 0;
+  left: -2.5%;
+  width: 105%;
+  height: 100%;
+  transition: -webkit-transform 3.5s 770ms;
+  transition: transform 3.5s 770ms;
+  transition: transform 3.5s 770ms, -webkit-transform 3.5s 770ms;
+}
+
+#howtowork .app__bgimg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#howtowork .app__bgimg-image--1 {
+  background: url("http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/conf.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+#howtowork .app__bgimg-image--2 {
+  background: url("http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg") center center no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0ms 1300ms;
+  will-change: opacity;
+}
+
+#howtowork .app__text {
+  position: absolute;
+  right: 165px;
+  top: 150px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+#howtowork .app__text-line {
+  transition: opacity 750ms 500ms, -webkit-transform 1500ms 400ms;
+  transition: transform 1500ms 400ms, opacity 750ms 500ms;
+  transition: transform 1500ms 400ms, opacity 750ms 500ms, -webkit-transform 1500ms 400ms;
+  will-change: transform, opacity;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#howtowork .app__text-line--4 {
+  transition: opacity 1500ms 1500ms, -webkit-transform 1500ms 1500ms;
+  transition: transform 1500ms 1500ms, opacity 1500ms 1500ms;
+  transition: transform 1500ms 1500ms, opacity 1500ms 1500ms, -webkit-transform 1500ms 1500ms;
+}
+
+#howtowork .app__text-line--3 {
+  transition: opacity 1500ms 1750ms, -webkit-transform 1500ms 1600ms;
+  transition: transform 1500ms 1600ms, opacity 1500ms 1750ms;
+  transition: transform 1500ms 1600ms, opacity 1500ms 1750ms, -webkit-transform 1500ms 1600ms;
+}
+
+#howtowork .app__text-line--2 {
+  transition: opacity 1500ms 2000ms, -webkit-transform 1500ms 1700ms;
+  transition: transform 1500ms 1700ms, opacity 1500ms 2000ms;
+  transition: transform 1500ms 1700ms, opacity 1500ms 2000ms, -webkit-transform 1500ms 1700ms;
+}
+
+#howtowork .app__text-line--1 {
+  transition: opacity 1500ms 2250ms, -webkit-transform 1500ms 1800ms;
+  transition: transform 1500ms 1800ms, opacity 1500ms 2250ms;
+  transition: transform 1500ms 1800ms, opacity 1500ms 2250ms, -webkit-transform 1500ms 1800ms;
+}
+
+#howtowork .app__text-line--4 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #0A101D;
+}
+
+#howtowork .app__text-line--3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#howtowork .app__text-line--2 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0099CC;
+}
+
+#howtowork .app__text-line--1 {
+  margin-top: 15px;
+}
+
+#howtowork .app__text-line--1 img {
+  width: 50px;
+}
+
+#howtowork .app__text--1 .app__text-line {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  opacity: 0;
+}
+
+#howtowork .app__text--2 {
+  right: initial;
+  top: 250px;
+  left: 80px;
+  z-index: -1;
+  transition: z-index 1500ms;
+}
+
+#howtowork .app__text--2 .app__text-line--4 {
+  opacity: 0;
+  transition: opacity 400ms 125ms, -webkit-transform 1500ms -75ms;
+  transition: transform 1500ms -75ms, opacity 400ms 125ms;
+  transition: transform 1500ms -75ms, opacity 400ms 125ms, -webkit-transform 1500ms -75ms;
+}
+
+#howtowork .app__text--2 .app__text-line--3 {
+  opacity: 0;
+  transition: opacity 400ms 200ms, -webkit-transform 1500ms 0ms;
+  transition: transform 1500ms 0ms, opacity 400ms 200ms;
+  transition: transform 1500ms 0ms, opacity 400ms 200ms, -webkit-transform 1500ms 0ms;
+}
+
+#howtowork .app__text--2 .app__text-line--2 {
+  opacity: 0;
+  transition: opacity 400ms 275ms, -webkit-transform 1500ms 75ms;
+  transition: transform 1500ms 75ms, opacity 400ms 275ms;
+  transition: transform 1500ms 75ms, opacity 400ms 275ms, -webkit-transform 1500ms 75ms;
+}
+
+#howtowork .app__text--2 .app__text-line--1 {
+  opacity: 0;
+  transition: opacity 400ms 350ms, -webkit-transform 1500ms 150ms;
+  transition: transform 1500ms 150ms, opacity 400ms 350ms;
+  transition: transform 1500ms 150ms, opacity 400ms 350ms, -webkit-transform 1500ms 150ms;
+}
+
+#howtowork .app__img {
+  position: absolute;
+  -webkit-transform: translate3d(0, -50px, 0);
+          transform: translate3d(0, -50px, 0);
+  width: 100%;
+  height: 100%;
+  transition: -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02), -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+  will-change: transform;
+}
+
+#howtowork .app__img img {
+  min-width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#howtowork .initial .app__img {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+#howtowork .initial .app__text--1 .app__text-line--1 {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  transition: opacity 400ms 1600ms, -webkit-transform 1500ms 1400ms;
+  transition: transform 1500ms 1400ms, opacity 400ms 1600ms;
+  transition: transform 1500ms 1400ms, opacity 400ms 1600ms, -webkit-transform 1500ms 1400ms;
+  opacity: 1;
+}
+
+#howtowork .initial .app__text--1 .app__text-line--2 {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  transition: opacity 400ms 1675ms, -webkit-transform 1500ms 1475ms;
+  transition: transform 1500ms 1475ms, opacity 400ms 1675ms;
+  transition: transform 1500ms 1475ms, opacity 400ms 1675ms, -webkit-transform 1500ms 1475ms;
+  opacity: 1;
+}
+
+#howtowork .initial .app__text--1 .app__text-line--3 {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  transition: opacity 400ms 1750ms, -webkit-transform 1500ms 1550ms;
+  transition: transform 1500ms 1550ms, opacity 400ms 1750ms;
+  transition: transform 1500ms 1550ms, opacity 400ms 1750ms, -webkit-transform 1500ms 1550ms;
+  opacity: 1;
+}
+
+#howtowork .initial .app__text--1 .app__text-line--4 {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  transition: opacity 400ms 1825ms, -webkit-transform 1500ms 1625ms;
+  transition: transform 1500ms 1625ms, opacity 400ms 1825ms;
+  transition: transform 1500ms 1625ms, opacity 400ms 1825ms, -webkit-transform 1500ms 1625ms;
+  opacity: 1;
+}
+
+#howtowork .active .app__bgimg {
+  -webkit-transform: translate3d(10px, 0, 0) scale(1.05);
+          transform: translate3d(10px, 0, 0) scale(1.05);
+  transition: -webkit-transform 5s 850ms ease-in-out;
+  transition: transform 5s 850ms ease-in-out;
+  transition: transform 5s 850ms ease-in-out, -webkit-transform 5s 850ms ease-in-out;
+}
+
+#howtowork .active .app__bgimg .app__bgimg-image--2 {
+  opacity: 1;
+  transition: opacity 0ms 1500ms;
+}
+
+#howtowork .active .app__img {
+  transition: -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+  transition: transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02), -webkit-transform 3s cubic-bezier(0.6, 0.13, 0.31, 1.02);
+  -webkit-transform: translate3d(0, -2710px, 0);
+          transform: translate3d(0, -2710px, 0);
+}
+
+#howtowork .active .app__text--1 {
+  z-index: -1;
+  transition: z-index 0ms 1500ms;
+}
+
+#howtowork .active .app__text--1 .app__text-line--1 {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  transition: opacity 400ms 500ms, -webkit-transform 1500ms 300ms;
+  transition: transform 1500ms 300ms, opacity 400ms 500ms;
+  transition: transform 1500ms 300ms, opacity 400ms 500ms, -webkit-transform 1500ms 300ms;
+  opacity: 0;
+}
+
+#howtowork .active .app__text--1 .app__text-line--2 {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  transition: opacity 400ms 575ms, -webkit-transform 1500ms 375ms;
+  transition: transform 1500ms 375ms, opacity 400ms 575ms;
+  transition: transform 1500ms 375ms, opacity 400ms 575ms, -webkit-transform 1500ms 375ms;
+  opacity: 0;
+}
+
+#howtowork .active .app__text--1 .app__text-line--3 {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  transition: opacity 400ms 650ms, -webkit-transform 1500ms 450ms;
+  transition: transform 1500ms 450ms, opacity 400ms 650ms;
+  transition: transform 1500ms 450ms, opacity 400ms 650ms, -webkit-transform 1500ms 450ms;
+  opacity: 0;
+}
+
+#howtowork .active .app__text--1 .app__text-line--4 {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  transition: opacity 400ms 725ms, -webkit-transform 1500ms 525ms;
+  transition: transform 1500ms 525ms, opacity 400ms 725ms;
+  transition: transform 1500ms 525ms, opacity 400ms 725ms, -webkit-transform 1500ms 525ms;
+  opacity: 0;
+}
+
+#howtowork .active .app__text--2 {
+  z-index: 1;
+}
+
+#howtowork .active .app__text--2 .app__text-line--1 {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  transition: opacity 1300ms 1300ms, -webkit-transform 2500ms 1100ms;
+  transition: transform 2500ms 1100ms, opacity 1300ms 1300ms;
+  transition: transform 2500ms 1100ms, opacity 1300ms 1300ms, -webkit-transform 2500ms 1100ms;
+  opacity: 1;
+}
+
+#howtowork .active .app__text--2 .app__text-line--2 {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  transition: opacity 1300ms 1575ms, -webkit-transform 2500ms 1175ms;
+  transition: transform 2500ms 1175ms, opacity 1300ms 1575ms;
+  transition: transform 2500ms 1175ms, opacity 1300ms 1575ms, -webkit-transform 2500ms 1175ms;
+  opacity: 1;
+}
+
+#howtowork .active .app__text--2 .app__text-line--3 {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  transition: opacity 1300ms 1850ms, -webkit-transform 2500ms 1250ms;
+  transition: transform 2500ms 1250ms, opacity 1300ms 1850ms;
+  transition: transform 2500ms 1250ms, opacity 1300ms 1850ms, -webkit-transform 2500ms 1250ms;
+  opacity: 1;
+}
+
+#howtowork .active .app__text--2 .app__text-line--4 {
+  -webkit-transform: translate3d(0, -125px, 0);
+          transform: translate3d(0, -125px, 0);
+  transition: opacity 1300ms 2125ms, -webkit-transform 2500ms 1325ms;
+  transition: transform 2500ms 1325ms, opacity 1300ms 2125ms;
+  transition: transform 2500ms 1325ms, opacity 1300ms 2125ms, -webkit-transform 2500ms 1325ms;
+  opacity: 1;
+}
+

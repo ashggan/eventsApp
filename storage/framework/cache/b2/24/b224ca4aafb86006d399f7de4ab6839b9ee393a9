@@ -1,0 +1,24 @@
+1558444375a:1:{s:10:"events.htm";a:11:{s:8:"fileName";s:10:"events.htm";s:7:"content";s:422:"title = "events"
+url = "/events"
+layout = "default"
+meta_title = "description"
+meta_description = "discover the cool events happen around you"
+is_hidden = 0
+==
+<div class="conatiner">
+    <div class="row">
+        <div class="col-md-5">discover the cool events happen around you</div>
+        <div class="col-md-5">discover the cool events happen around you</div>
+    </div>
+    <row>
+    
+    </row>
+</div>";s:5:"mtime";i:1558344323;s:6:"markup";s:255:"<div class="conatiner">
+    <div class="row">
+        <div class="col-md-5">discover the cool events happen around you</div>
+        <div class="col-md-5">discover the cool events happen around you</div>
+    </div>
+    <row>
+    
+    </row>
+</div>";s:4:"code";N;s:5:"title";s:6:"events";s:3:"url";s:7:"/events";s:6:"layout";s:7:"default";s:10:"meta_title";s:11:"description";s:16:"meta_description";s:42:"discover the cool events happen around you";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,36 @@
+1558444375a:1:{s:17:"browse-events.htm";a:10:{s:8:"fileName";s:17:"browse-events.htm";s:7:"content";s:542:"title = "browse-events"
+url = "/browse-events"
+layout = "default"
+is_hidden = 0
+
+[eventList]
+eventsPerPage = 10
+noEventMessage = "Sorry , there is no events"
+calendar = 1
+eventPage = "events/event"
+==
+<div class="row">
+{% for event in events %}
+    {% partial '@event.htm' event=event %}
+{% else %}
+    <div class="event-item">
+        <div class="details">
+            <h2 class="title">{{ noEventMessage }}</h2>
+        </div><!--//details-->
+    </div><!--event-item-->
+{% endfor %}
+
+{{ events.render | raw }}
+</div>";s:5:"mtime";i:1558347662;s:6:"markup";s:330:"<div class="row">
+{% for event in events %}
+    {% partial '@event.htm' event=event %}
+{% else %}
+    <div class="event-item">
+        <div class="details">
+            <h2 class="title">{{ noEventMessage }}</h2>
+        </div><!--//details-->
+    </div><!--event-item-->
+{% endfor %}
+
+{{ events.render | raw }}
+</div>";s:4:"code";N;s:5:"title";s:13:"browse-events";s:3:"url";s:14:"/browse-events";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:9:"eventList";a:4:{s:13:"eventsPerPage";s:2:"10";s:14:"noEventMessage";s:26:"Sorry , there is no events";s:8:"calendar";s:1:"1";s:9:"eventPage";s:12:"events/event";}}}
