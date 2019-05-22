@@ -1,20 +1,20 @@
 description = "Navigation bar"
 ==
 <section id="navbar" class="m-b-3">
-	<nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
+	<nav class="navbar navbar-dark bg-inverse ">
 		<div class="container">
     			<a class="navbar-brand" href="{{ 'home'|page }}"><img src="{{'http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images//logo.png'}} " alt="eventnas"></a>
     			
     			<ul class="nav navbar-nav pull-xs-left">
         			<li class="nav-item{{ this.page.baseFileName == 'browse-events' ? ' active' }}">
-    					<a class="nav-link" href="{{ 'browse-events'|page }}"> Browse events </a>
+    					<a class="nav-link" href="{{ 'browse-events'|page }}"> Browse  </a>
     				</li>
-    				<li class="nav-item{{ this.page.baseFileName == 'plan-event' ? ' active' }}">
-    					<a class="nav-link" href="{{ 'plan-event'|page }}">Organize Event</a>
-    				</li>
-    				<li class="nav-item{{ this.page.baseFileName == 'contact' ? ' active' }}">
-    					<a class="nav-link" href="{{ 'contact'|page }}"> Contact us </a>
-    				</li>
+    				<!-- <li class="nav-item{{ this.page.baseFileName == 'plan-event' ? ' active' }}">
+    				    <a class="nav-link" href="{{ 'plan-event'|page }}">Organize </a>
+    				</li> -->
+    				<!-- <li class="nav-item{{ this.page.baseFileName == 'contact' ? ' active' }}">
+    				    <a class="nav-link" href="{{ 'contact'|page }}"> Contact us </a>
+    				</li> -->
     			</ul>
 			<ul class="nav navbar-nav pull-xs-right">
 				

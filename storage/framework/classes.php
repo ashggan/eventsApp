@@ -30,4 +30,7 @@
   'jorgeandrade\\events\\Controllers\\calendars' => 'plugins\\jorgeandrade\\events\\controllers\\calendars.php',
   'JorgeAndrade\\Events\\Components\\EventList' => 'plugins\\jorgeandrade\\events\\components\\EventList.php',
   'JorgeAndrade\\Events\\Components\\Event' => 'plugins\\jorgeandrade\\events\\components\\Event.php',
+  'rainlab\\sitemap\\Plugin' => 'plugins\\rainlab\\sitemap\\Plugin.php',
+  'system\\Controllers\\eventlogs' => 'modules\\system\\controllers\\eventlogs.php',
+  'backend\\Controllers\\accesslogs' => 'modules\\backend\\controllers\\accesslogs.php',
 );

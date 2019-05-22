@@ -1,24 +1,70 @@
 title = "browse-events"
 url = "/browse-events"
 layout = "default"
+meta_title = "description"
+meta_description = "Find you next experience"
 is_hidden = 0
-
-[eventList]
-eventsPerPage = 10
-noEventMessage = "Sorry , there is no events"
-calendar = 1
-eventPage = "events/event"
 ==
-<div class="row">
-{% for event in events %}
-    {% partial '@event.htm' event=event %}
-{% else %}
-    <div class="event-item">
-        <div class="details">
-            <h2 class="title">{{ noEventMessage }}</h2>
-        </div><!--//details-->
-    </div><!--event-item-->
-{% endfor %}
-
-{{ events.render | raw }}
+<div id="browse-events">
+<div class="wrapper">
+    <div class="sidebar">
+    <div class="find">
+    <div class="form-gruop">
+    <input type="search" class="form-control mb-2" placeholder="search ...">
+    </div>
+    <div class="form-group">
+    
+    <button type="button" class="btn btn-outline-dark btn-block mt-4"><i class="fa fa-search fa-lg"></i> Search</button></div>
+        
+    </div>
+    <h1>Categories</h1>
+        <ul>
+            <li><a href="#">Cultural</a></li>
+            <li><a href="" id="">Educational</a></li>
+            <li><a href="">Entertainment</a></li>
+        </ul>
+    </div>
+    <div class="content">
+      <div class="wrapper">
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+           </div>              
+             </div>
+          </div>
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg" style="background-image:url('http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+           </div>              
+             </div>
+          </div>
+          
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+            </div>
+          </div>
+              </div>              
+          
+    </div>
+    </div>
+</div>
 </div>
