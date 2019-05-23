@@ -33,4 +33,9 @@
   'rainlab\\sitemap\\Plugin' => 'plugins\\rainlab\\sitemap\\Plugin.php',
   'system\\Controllers\\eventlogs' => 'modules\\system\\controllers\\eventlogs.php',
   'backend\\Controllers\\accesslogs' => 'modules\\backend\\controllers\\accesslogs.php',
+  'anandpatel\\seoextension\\Plugin' => 'plugins\\anandpatel\\seoextension\\Plugin.php',
+  'AnandPatel\\SeoExtension\\Models\\Settings' => 'plugins\\anandpatel\\seoextension\\models\\Settings.php',
+  'AnandPatel\\SeoExtension\\Components\\BlogPost' => 'plugins\\anandpatel\\seoextension\\components\\BlogPost.php',
+  'AnandPatel\\SeoExtension\\Components\\StaticPage' => 'plugins\\anandpatel\\seoextension\\components\\StaticPage.php',
+  'AnandPatel\\SeoExtension\\Components\\CmsPage' => 'plugins\\anandpatel\\seoextension\\components\\CmsPage.php',
 );

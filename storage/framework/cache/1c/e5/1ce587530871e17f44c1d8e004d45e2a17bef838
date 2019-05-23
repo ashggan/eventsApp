@@ -1,0 +1,132 @@
+1558609781a:1:{s:17:"browse-events.htm";a:11:{s:8:"fileName";s:17:"browse-events.htm";s:7:"content";s:2240:"title = "browse-events"
+url = "/browse-events"
+layout = "default"
+meta_title = "description"
+meta_description = "Find you next experience"
+is_hidden = 0
+==
+<div id="browse-events">
+<div class="wrapper">
+    <div class="sidebar">
+    <div class="find">
+    <div class="form-gruop">
+    <input type="search" class="form-control mb-2" placeholder="search ...">
+    </div>
+    <div class="form-group">
+    
+    <button type="button" class="btn btn-outline-dark btn-block mt-4"><i class="fa fa-search fa-lg"></i> Search</button></div>
+        
+    </div>
+    <h1>Categories</h1>
+        <ul>
+            <li><a href="#">Cultural</a></li>
+            <li><a href="" id="">Educational</a></li>
+            <li><a href="">Entertainment</a></li>
+        </ul>
+    </div>
+    <div class="content">
+      <div class="wrapper">
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+           </div>              
+             </div>
+          </div>
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg" style="background-image:url('http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+           </div>              
+             </div>
+          </div>
+          
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+            </div>
+          </div>
+              </div>              
+          
+    </div>
+    </div>
+</div>
+</div>";s:5:"mtime";i:1558564304;s:6:"markup";s:2077:"<div id="browse-events">
+<div class="wrapper">
+    <div class="sidebar">
+    <div class="find">
+    <div class="form-gruop">
+    <input type="search" class="form-control mb-2" placeholder="search ...">
+    </div>
+    <div class="form-group">
+    
+    <button type="button" class="btn btn-outline-dark btn-block mt-4"><i class="fa fa-search fa-lg"></i> Search</button></div>
+        
+    </div>
+    <h1>Categories</h1>
+        <ul>
+            <li><a href="#">Cultural</a></li>
+            <li><a href="" id="">Educational</a></li>
+            <li><a href="">Entertainment</a></li>
+        </ul>
+    </div>
+    <div class="content">
+      <div class="wrapper">
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+           </div>              
+             </div>
+          </div>
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg" style="background-image:url('http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+           </div>              
+             </div>
+          </div>
+          
+          <div class="event">
+         
+           <div class="shade">
+               <div class="bg"></div>
+               <div class="text">
+                 <div class="title">web global conferene</div>
+                 <div class="date">
+                       <div class="number">12 MAY</div>
+                 </div>
+            </div>
+          </div>
+              </div>              
+          
+    </div>
+    </div>
+</div>
+</div>";s:4:"code";N;s:5:"title";s:13:"browse-events";s:3:"url";s:14:"/browse-events";s:6:"layout";s:7:"default";s:10:"meta_title";s:11:"description";s:16:"meta_description";s:24:"Find you next experience";s:9:"is_hidden";s:1:"0";}}

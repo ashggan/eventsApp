@@ -1,0 +1,18 @@
+1558609781a:1:{s:11:"contact.htm";a:9:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:173:"title = "contact"
+url = "/contact"
+layout = "default"
+is_hidden = 0
+==
+<?php
+public function validate() {
+ dd($request);   
+  }
+?>
+==
+<div id="contact">
+
+</div>";s:5:"mtime";i:1558550853;s:6:"markup";s:28:"<div id="contact">
+
+</div>";s:4:"code";s:52:"public function validate() {
+ dd($request);   
+  }";s:5:"title";s:7:"contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
