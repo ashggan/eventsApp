@@ -1,7 +1,34 @@
-1558609781a:1:{s:11:"contact.htm";a:9:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:173:"title = "contact"
+1558866591a:1:{s:11:"contact.htm";a:12:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:674:"title = "contact"
 url = "/contact"
 layout = "default"
 is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[advanced]
+idSlider = 1
+height = 500
+autoplay = "true"
+fillmode = 0
+transaction = 1
+autoplayinterval = 2000
+pauseonhover = 1
+arrowkeynavigation = "true"
+slideduration = 500
+mindragoffset = 40
+slidespacing = 0
+dragorientation = 1
+playorientation = 1
+chancetoshow = 2
+autocenter = 1
+orientation = 1
+spacingx = 8
+spacingy = 8
+steps = 1
+lanes = 1
+chancetoshowarrow = 1
+autocenterarrow = 2
+stepsarrow = 1
 ==
 <?php
 public function validate() {
@@ -10,9 +37,9 @@ public function validate() {
 ?>
 ==
 <div id="contact">
-
-</div>";s:5:"mtime";i:1558550853;s:6:"markup";s:28:"<div id="contact">
-
+{% component  'advanced' %}
+</div>";s:5:"mtime";i:1558865989;s:6:"markup";s:55:"<div id="contact">
+{% component  'advanced' %}
 </div>";s:4:"code";s:52:"public function validate() {
  dd($request);   
-  }";s:5:"title";s:7:"contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}
+  }";s:5:"title";s:7:"contact";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:8:"advanced";a:23:{s:8:"idSlider";s:1:"1";s:6:"height";s:3:"500";s:8:"autoplay";s:4:"true";s:8:"fillmode";s:1:"0";s:11:"transaction";s:1:"1";s:16:"autoplayinterval";s:4:"2000";s:12:"pauseonhover";s:1:"1";s:18:"arrowkeynavigation";s:4:"true";s:13:"slideduration";s:3:"500";s:13:"mindragoffset";s:2:"40";s:12:"slidespacing";s:1:"0";s:15:"dragorientation";s:1:"1";s:15:"playorientation";s:1:"1";s:12:"chancetoshow";s:1:"2";s:10:"autocenter";s:1:"1";s:11:"orientation";s:1:"1";s:8:"spacingx";s:1:"8";s:8:"spacingy";s:1:"8";s:5:"steps";s:1:"1";s:5:"lanes";s:1:"1";s:17:"chancetoshowarrow";s:1:"1";s:15:"autocenterarrow";s:1:"2";s:10:"stepsarrow";s:1:"1";}}}

@@ -1,9 +1,11 @@
-1558609781a:1:{s:17:"browse-events.htm";a:11:{s:8:"fileName";s:17:"browse-events.htm";s:7:"content";s:2240:"title = "browse-events"
+1558866343a:1:{s:17:"browse-events.htm";a:13:{s:8:"fileName";s:17:"browse-events.htm";s:7:"content";s:2292:"title = "browse-events"
 url = "/browse-events"
 layout = "default"
 meta_title = "description"
 meta_description = "Find you next experience"
 is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
 ==
 <div id="browse-events">
 <div class="wrapper">
@@ -41,7 +43,7 @@ is_hidden = 0
           <div class="event">
          
            <div class="shade">
-               <div class="bg" style="background-image:url('http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
+               <div class="bg" style="background-image:url('http://events.ashgan-me.com/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
                <div class="text">
                  <div class="title">web global conferene</div>
                  <div class="date">
@@ -67,7 +69,7 @@ is_hidden = 0
     </div>
     </div>
 </div>
-</div>";s:5:"mtime";i:1558564304;s:6:"markup";s:2077:"<div id="browse-events">
+</div>";s:5:"mtime";i:1558615312;s:6:"markup";s:2081:"<div id="browse-events">
 <div class="wrapper">
     <div class="sidebar">
     <div class="find">
@@ -103,7 +105,7 @@ is_hidden = 0
           <div class="event">
          
            <div class="shade">
-               <div class="bg" style="background-image:url('http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
+               <div class="bg" style="background-image:url('http://events.ashgan-me.com/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
                <div class="text">
                  <div class="title">web global conferene</div>
                  <div class="date">
@@ -129,4 +131,4 @@ is_hidden = 0
     </div>
     </div>
 </div>
-</div>";s:4:"code";N;s:5:"title";s:13:"browse-events";s:3:"url";s:14:"/browse-events";s:6:"layout";s:7:"default";s:10:"meta_title";s:11:"description";s:16:"meta_description";s:24:"Find you next experience";s:9:"is_hidden";s:1:"0";}}
+</div>";s:4:"code";N;s:5:"title";s:13:"browse-events";s:3:"url";s:14:"/browse-events";s:6:"layout";s:7:"default";s:10:"meta_title";s:11:"description";s:16:"meta_description";s:24:"Find you next experience";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}

@@ -1,9 +1,11 @@
-1558609781a:1:{s:8:"home.htm";a:11:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:4841:"title = "home"
+1558866343a:1:{s:8:"home.htm";a:13:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:5377:"title = "home"
 url = "/"
 layout = "default"
 meta_title = "description"
 meta_description = "discover all cultural , educational and entertainment events in sudan and khartoum"
 is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
 ==
 <div id="howtowork">
     <div class="cont">
@@ -13,7 +15,7 @@ is_hidden = 0
     			<div class="app__bgimg-image app__bgimg-image--2"></div>
     		</div>
     		<div class="app__img">
-    			<img onmousedown="return false" src="http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/web.svg" alt="" />
+    			<img onmousedown="return false" src="http://events.ashgan-me.com/themes/hambern-hambern-blank-bootstrap-4/assets/images/web.svg" alt="" />
     		</div>
         		
     		<div class="app__text app__text--1">
@@ -38,6 +40,7 @@ is_hidden = 0
 </div>
 
 <div id="search">
+    
 
     <div class="search-box">
         
@@ -66,6 +69,13 @@ is_hidden = 0
         </div>
              
    </div> 
+   
+   <!-- <div class="about">
+    <div class="title"><h1>our events</h1></div>
+    <div class="subt"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, eos, aliquam, facere, rerum voluptatum minima molestias voluptate quis dicta illo dignissimos consectetur repellendus illum saepe harum maxime placeat   </p>
+    <button class="btn btn-oultine-deark">Read more <i class="fa fa-arrow-right fa-lg mi-3"></i></button>
+    </div>
+    </div> -->
      
     </div>
 </div>
@@ -88,7 +98,7 @@ is_hidden = 0
           <div class="event">
          
            <div class="shade">
-               <div class="bg" style="background-image:url('http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
+               <div class="bg" style="background-image:url('http://events.ashgan-me.com/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
                <div class="text">
                  <div class="title">web global conferene</div>
                  <div class="date">
@@ -129,7 +139,7 @@ is_hidden = 0
             <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
           </div>
     </div>
-</div> -->";s:5:"mtime";i:1558575242;s:6:"markup";s:4642:"<div id="howtowork">
+</div> -->";s:5:"mtime";i:1558860157;s:6:"markup";s:5130:"<div id="howtowork">
     <div class="cont">
     	<div class="app">
     		<div class="app__bgimg">
@@ -137,7 +147,7 @@ is_hidden = 0
     			<div class="app__bgimg-image app__bgimg-image--2"></div>
     		</div>
     		<div class="app__img">
-    			<img onmousedown="return false" src="http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/web.svg" alt="" />
+    			<img onmousedown="return false" src="http://events.ashgan-me.com/themes/hambern-hambern-blank-bootstrap-4/assets/images/web.svg" alt="" />
     		</div>
         		
     		<div class="app__text app__text--1">
@@ -162,6 +172,7 @@ is_hidden = 0
 </div>
 
 <div id="search">
+    
 
     <div class="search-box">
         
@@ -190,6 +201,13 @@ is_hidden = 0
         </div>
              
    </div> 
+   
+   <!-- <div class="about">
+    <div class="title"><h1>our events</h1></div>
+    <div class="subt"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, eos, aliquam, facere, rerum voluptatum minima molestias voluptate quis dicta illo dignissimos consectetur repellendus illum saepe harum maxime placeat   </p>
+    <button class="btn btn-oultine-deark">Read more <i class="fa fa-arrow-right fa-lg mi-3"></i></button>
+    </div>
+    </div> -->
      
     </div>
 </div>
@@ -212,7 +230,7 @@ is_hidden = 0
           <div class="event">
          
            <div class="shade">
-               <div class="bg" style="background-image:url('http://localhost/events/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
+               <div class="bg" style="background-image:url('http://events.ashgan-me.com/themes/hambern-hambern-blank-bootstrap-4/assets/images/concert.jpg')"></div>
                <div class="text">
                  <div class="title">web global conferene</div>
                  <div class="date">
@@ -253,4 +271,4 @@ is_hidden = 0
             <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
           </div>
     </div>
-</div> -->";s:4:"code";N;s:5:"title";s:4:"home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:11:"description";s:16:"meta_description";s:82:"discover all cultural , educational and entertainment events in sudan and khartoum";s:9:"is_hidden";s:1:"0";}}
+</div> -->";s:4:"code";N;s:5:"title";s:4:"home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:11:"description";s:16:"meta_description";s:82:"discover all cultural , educational and entertainment events in sudan and khartoum";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";}}

@@ -38,4 +38,9 @@
   'AnandPatel\\SeoExtension\\Components\\BlogPost' => 'plugins\\anandpatel\\seoextension\\components\\BlogPost.php',
   'AnandPatel\\SeoExtension\\Components\\StaticPage' => 'plugins\\anandpatel\\seoextension\\components\\StaticPage.php',
   'AnandPatel\\SeoExtension\\Components\\CmsPage' => 'plugins\\anandpatel\\seoextension\\components\\CmsPage.php',
+  'raviraj\\rjsliders\\Plugin' => 'plugins\\raviraj\\rjsliders\\Plugin.php',
+  'raviraj\\rjsliders\\Controllers\\sliders' => 'plugins\\raviraj\\rjsliders\\controllers\\sliders.php',
+  'Raviraj\\Rjsliders\\Models\\Slider' => 'plugins\\raviraj\\rjsliders\\models\\Slider.php',
+  'Raviraj\\RjSliders\\Components\\Advanced' => 'plugins\\raviraj\\rjsliders\\components\\Advanced.php',
+  'Raviraj\\Rjsliders\\Components\\Advanced' => 'plugins\\raviraj\\rjsliders\\components\\Advanced.php',
 );

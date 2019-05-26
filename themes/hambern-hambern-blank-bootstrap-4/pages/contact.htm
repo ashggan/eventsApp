@@ -2,6 +2,33 @@ title = "contact"
 url = "/contact"
 layout = "default"
 is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[advanced]
+idSlider = 1
+height = 500
+autoplay = "true"
+fillmode = 0
+transaction = 1
+autoplayinterval = 2000
+pauseonhover = 1
+arrowkeynavigation = "true"
+slideduration = 500
+mindragoffset = 40
+slidespacing = 0
+dragorientation = 1
+playorientation = 1
+chancetoshow = 2
+autocenter = 1
+orientation = 1
+spacingx = 8
+spacingy = 8
+steps = 1
+lanes = 1
+chancetoshowarrow = 1
+autocenterarrow = 2
+stepsarrow = 1
 ==
 <?php
 public function validate() {
@@ -10,5 +37,5 @@ public function validate() {
 ?>
 ==
 <div id="contact">
-
+{% component  'advanced' %}
 </div>
